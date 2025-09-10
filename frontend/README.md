@@ -1,4 +1,4 @@
-# Learning Path Management System
+# LearnTube
 
 A modern web application for creating and managing learning paths and playlists using React, TypeScript, and Vite.
 
