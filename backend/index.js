@@ -16,18 +16,10 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 app.use(
   cors({
-    origin: "*", // Mengizinkan semua origin
-    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-    allowedHeaders: [
-      "Content-Type",
-      "Authorization",
-      "X-Requested-With",
-      "Accept",
-    ],
+    origin: process.env.CLIENT_URL,
     credentials: true,
   })
 );
-
 app.use(morgan("tiny"));
 app.use(express.json());
 app.use(cookieParser());
@@ -57,7 +49,9 @@ connectDB()
     console.log("--- Server Started ---");
     console.log("MongoDB connection success");
     app.listen(PORT, () => {
-      console.log(`Server running`);
+      console.log(
+        `Server running`
+      );
       console.log("---- Logger ----");
     });
   })
