@@ -325,8 +325,8 @@ Please submit pull requests or issues for improvements or new features.
 
 For questions and further information:
 
-- Email: [your-email@example.com](mailto:septiandwica03@gmail.com)
-- GitHub: [@yourusername](https://github.com/septiandwica)
+- Email: [septiandwica03@gmail.com](mailto:septiandwica03@gmail.com)
+- GitHub: [@septiandwica](https://github.com/septiandwica)
 
 ---
 
