@@ -14,7 +14,12 @@ const PORT = process.env.PORT || 3000;
 
 // Init
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: ['https://learntubehub.vercel.app', 'http://localhost:5173'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true
+}));
 app.use(morgan("tiny"));
 app.use(express.json());
 app.use(cookieParser());
