@@ -215,8 +215,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 For questions and further information:
 
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- GitHub: [@yourusername](https://github.com/yourusername)
+- Email: [septiandwica03@gmail.com](mailto:septiandwica03@gmail.com)
+- GitHub: [@septiandwica](https://github.com/septiandwica)
+
 
 ---
 
