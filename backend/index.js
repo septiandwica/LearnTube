@@ -50,7 +50,7 @@ connectDB()
     console.log("MongoDB connection success");
     app.listen(PORT, () => {
       console.log(
-        `Server running on: http://${process.env.HOSTNAME}:${process.env.PORT}`
+        `Server running`
       );
       console.log("---- Logger ----");
     });
